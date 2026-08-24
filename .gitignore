@@ -1,0 +1,104 @@
+# Byte-compiled / optimized / C-Python artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+.env
+.env.*
+!.env.example
+!.env.template
+.venv/
+venv/
+ENV/
+env/
+env.bak/
+venv.bak/
+
+# Testing and linters
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.pyre/
+.pytype/
+.hypothesis/
+.tox/
+.nox/
+.coverage
+.coverage.*
+nosetests.xml
+coverage.xml
+htmlcov/
+*.cover
+*.py,cover
+
+# Jupyter Notebooks
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# IDEs and editors
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.project
+.pydevproject
+.settings/
+
+# Operating System
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Agent / Workspace local artifacts
+.gemini/
+
+# Large Datasets, Embeddings, Indices & Experiment Outputs
+data/raw/*
+!data/raw/.gitkeep
+!data/raw/**/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+!data/processed/**/.gitkeep
+data/indices/*
+!data/indices/.gitkeep
+!data/indices/**/.gitkeep
+
+# Experiment logs and generated results
+results/*
+!results/.gitkeep
+!results/**/.gitkeep
+experiments/pilot/*
+!experiments/pilot/.gitkeep
+experiments/pilot/**/.gitkeep
+experiments/full/*
+!experiments/full/.gitkeep
+experiments/full/**/.gitkeep
