@@ -1,0 +1,42 @@
+{
+  "n_records": 2000,
+  "n_authentic": 986,
+  "n_fabricated": 1014,
+  "n_authentic_with_gold": 986,
+  "gold_ids_per_claim": {
+    "5": 986
+  },
+  "gold_reproduced_exact_ordered": 1.0,
+  "gold_reproduced_as_set": 1.0,
+  "gold_top1_reproduced": 1.0,
+  "gold_top1_collection_share": {
+    "muslim": 0.7322515212981744,
+    "bukhari": 0.26774847870182555
+  },
+  "corpus_english_share": 0.5870816599732263,
+  "claims_top1_gold_english": 0.3448275862068966,
+  "claims_any_gold_english": 0.7616632860040567,
+  "claims_all_gold_english": 0.028397565922920892,
+  "n_unique_matns": 746,
+  "n_repeat_matn_claims": 240,
+  "dup_bn_claims": 5,
+  "dup_en_claims": 18,
+  "evidence_duplicate_texts": 381,
+  "claims_with_gold_twin": 51,
+  "mean_containment_by_gold_rank": [
+    0.8414,
+    0.6663,
+    0.5991,
+    0.5544,
+    0.5206
+  ],
+  "reliable_gold_claims": 619,
+  "reliable_gold_share": 0.6277890466531441,
+  "spearman_vs_all": {
+    "Unique Matns": 0.9955321222799309,
+    "Reliable gold (containment)": 0.9714285714285713,
+    "Gold has English (any)": 0.9892857142857142,
+    "Gold has NO English": 0.512027620977809,
+    "Twin-aware gold": 1.0
+  }
+}
